@@ -19,7 +19,7 @@
 	}
 
 	&__tagline {
-		color: #425563;
+		color: #fff;
 		font-family: 'Merriweather', serif;
 		font-size: 1.4em;
 		font-style: italic;
@@ -29,17 +29,17 @@
 		@media (min-width: $med) {
 			font-size: 1.1em;
 			margin-bottom: 40px;
-			text-align: center;
+			text-align: center; 
 		}
 	}
 
 	&__legal {
-		color: #425563;	
+		color: #fff;	
 		font-family: 'Roboto', sans-serif;	
 		line-height: 1.4em;
 
 		a {
-			color: #425563;	
+			color: #fff;	
 			text-decoration: none;	
 
 			&:hover {
@@ -67,7 +67,7 @@
 		line-height: 1.4em;
 
 		a {
-			color: #425563;
+			color: #fff;
 			text-decoration: none;
 
 			@media (min-width: $med) {

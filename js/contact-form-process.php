@@ -38,14 +38,14 @@ $emailContent .= "Email Address: $email\n";
 $emailContent .= "Phone: $phone\n";
 
 // send
-$success = mail('admin@tenacitas.com', 'News Subscription', $emailContent, $headers);
+$success = mail('andrewcocker86@googlemail.com', 'News Subscription', $emailContent, $headers);
 
 if($success)
 {
 	// header info
-	$headers = "From: admin@tenacitas.com";
-	$headers .= "<admin@tenacitas.com>\r\n";
-	$headers .= "Reply-To: admin@tenacitas.com";
+	$headers = "From: andrewcocker86@googlemail.com";
+	$headers .= "<andrewcocker86@googlemail.com>\r\n";
+	$headers .= "Reply-To: andrewcocker86@googlemail.com";
 	
 	$emailContent = "Thank you for subscribing to our newsletter.\n\nYou have been successfully added to our mailing list, keeping you up-to-date with our monthly reports.\n\nIf you¹ve not subscribed please contact @email.com to be removed from the mailing list.";
 	$success = mail($email, 'News Subscription', $emailContent, $headers);
