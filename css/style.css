@@ -1339,7 +1339,7 @@ Contents
   }
 }
 .footer__tagline {
-  color: #425563;
+  color: #fff;
   font-family: 'Merriweather', serif;
   font-size: 1.4em;
   font-style: italic;
@@ -1354,12 +1354,12 @@ Contents
   }
 }
 .footer__legal {
-  color: #425563;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   line-height: 1.4em;
 }
 .footer__legal a {
-  color: #425563;
+  color: #fff;
   text-decoration: none;
 }
 .footer__legal a:hover {
@@ -1385,7 +1385,7 @@ Contents
   line-height: 1.4em;
 }
 #menu-footer li a {
-  color: #425563;
+  color: #fff;
   text-decoration: none;
 }
 @media (min-width: 46.8em) {
