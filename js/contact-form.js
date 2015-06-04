@@ -37,11 +37,10 @@
 				url: "/wp-content/themes/jfd/js/contact-form-process.php",
 				data: dataString,
 				success: function() {
-					$('#monthly-reports-container').html("<div id='thanks'>Thank-you for subscribing.</div>")
+					$('#monthly-reports-container').html("<p class='thanks'>Thank you for subscribing.</p>")
 					.hide()
 					.fadeIn(500)
-					.delay(5000)
-					.fadeOut(500);
+					.fadeOut(5000);
 				}
 			});
 			return false;
