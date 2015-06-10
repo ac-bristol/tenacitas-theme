@@ -13,22 +13,22 @@ Contents
 /* #Grid */
 /* transitions */
 html {
-  background: white;
+  background: #fff;
 }
 
 body {
   background: transparent;
-  color: #231f20;
+  color: #231F20;
 }
 
 ::-moz-selection {
-  background: #231f20;
+  background: #231F20;
   color: #fff;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 
 ::selection {
-  background: #231f20;
+  background: #231F20;
   color: #fff;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
@@ -37,7 +37,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #231f20;
+  border-top: 1px solid #231F20;
   margin: 1em 0;
   padding: 0;
 }
@@ -214,9 +214,9 @@ audio:not([controls]) {
  *    user zoom.
  */
 html {
-  background: white;
+  background: #fff;
   /* 1 */
-  color: #231f20;
+  color: #231F20;
   /* 2 */
   font-size: 100%;
   /* 3 */
@@ -296,8 +296,8 @@ h1 {
  * Address styling not present in IE 6/7/8/9.
  */
 mark {
-  background: #231f20;
-  color: #231f20;
+  background: #231F20;
+  color: #231F20;
 }
 
 /**
@@ -776,7 +776,7 @@ Contents
 }
 /* #Body */
 body {
-  color: white;
+  color: #fff;
   font: 80%/1.4 'Roboto', sans-serif;
 }
 @media (min-width: 46.8em) {
@@ -835,7 +835,7 @@ h1.serif, h2.serif, h3.serif, h4.serif, h5.serif, h6.serif {
 }
 
 .heading {
-  color: white;
+  color: #fff;
   font-size: 1.6em;
   font-family: 'roboto', sans-serif;
   font-weight: 500;
@@ -865,7 +865,7 @@ h1.serif, h2.serif, h3.serif, h4.serif, h5.serif, h6.serif {
 
 /* #Misc */
 a {
-  color: white;
+  color: #fff;
   text-decoration: underline;
 }
 a:hover {
@@ -1169,7 +1169,7 @@ Contents
 @media (max-width: 50em) {
   .nav__list ul li {
     background: #a9b6bf;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fff;
     display: block;
     margin-top: 0;
     width: 100%;
@@ -1185,7 +1185,7 @@ Contents
 }
 @media (min-width: 50em) {
   .nav__list ul li.current_page_item {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fff;
   }
 }
 @media (min-width: 50em) {
@@ -1195,7 +1195,7 @@ Contents
     padding-bottom: 5px;
   }
   .nav__list ul li:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #fff;
   }
 }
 @media (min-width: 73em) {
@@ -1205,7 +1205,7 @@ Contents
   }
 }
 .nav__list ul li a {
-  color: white;
+  color: #fff;
   font-weight: 100;
   font-size: 0.8em;
   letter-spacing: 0.1em;
@@ -1222,7 +1222,7 @@ Contents
   }
 }
 .nav__list ul li a:hover {
-  color: white;
+  color: #fff;
 }
 
 .burger {
@@ -1330,12 +1330,12 @@ Contents
 }
 @media (min-width: 50em) {
   .footer {
-    background: #717f89 url("/wp-content/themes/jfd/img/footer-lines.png") no-repeat 10% 12px;
+    background: #717F89 url("/wp-content/themes/jfd/img/footer-lines.png") no-repeat 10% 12px;
   }
 }
 @media (min-width: 73em) {
   .footer {
-    background: #717f89 url("/wp-content/themes/jfd/img/footer-lines.png") no-repeat 25% 12px;
+    background: #717F89 url("/wp-content/themes/jfd/img/footer-lines.png") no-repeat 25% 12px;
   }
 }
 .footer__tagline {
@@ -1360,6 +1360,7 @@ Contents
 }
 .footer__legal a {
   color: #fff;
+  font-family: 'roboto', sans-serif;
   text-decoration: none;
 }
 .footer__legal a:hover {
@@ -1377,6 +1378,7 @@ Contents
 
 #menu-footer {
   display: inline-block;
+  font-family: 'roboto', sans-serif;
   list-style: none;
   padding: 0;
   margin: 0 0 10px 0;
@@ -1386,6 +1388,7 @@ Contents
 }
 #menu-footer li a {
   color: #fff;
+  font-family: 'roboto', sans-serif;
   text-decoration: none;
 }
 @media (min-width: 46.8em) {
@@ -1476,11 +1479,11 @@ Contents
 }
 .section--grey {
   background: #e3e5e8;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
 }
 .section--light-grey {
   background: #ECEDEF;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
 }
 .section--blue {
   background: #5B92C8;
@@ -1580,8 +1583,8 @@ Contents
   -o-transition: background, 1s;
   transition: background, 1s;
   background: none;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #fff;
+  color: #fff;
   font-family: 'roboto', sans-serif;
   font-size: 1.4em;
   font-style: normal;
@@ -1599,7 +1602,7 @@ Contents
   }
 }
 .wpcf7-form input[type="submit"]:hover {
-  background: white;
+  background: #fff;
   color: #717F89;
 }
 .wpcf7-form .submit {
@@ -1786,7 +1789,7 @@ Contents
   -ms-transition: all, 0.2s;
   -o-transition: all, 0.2s;
   transition: all, 0.2s;
-  color: white;
+  color: #fff;
   font-size: 1.4em;
   font-style: italic;
   left: 0;
@@ -1878,7 +1881,7 @@ Contents
   }
 }
 .box .textwidget a {
-  color: white;
+  color: #fff;
   display: block;
   text-decoration: none;
 }
@@ -1886,7 +1889,7 @@ Contents
   text-decoration: none;
 }
 .box__line {
-  background: white;
+  background: #fff;
   height: 2px;
   left: 0;
   margin: 0 auto;
@@ -2070,7 +2073,7 @@ Contents
 }
 @media (min-width: 46.8em) {
   .contact-box--line {
-    border-right: 1px solid white;
+    border-right: 1px solid #fff;
     margin-bottom: 0;
   }
 }
@@ -2332,17 +2335,17 @@ Contents
   -ms-transition: all, 1s;
   -o-transition: all, 1s;
   transition: all, 1s;
-  color: white;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  border: 1px solid white;
+  border: 1px solid #fff;
   display: inline-block;
   margin-top: 30px;
   padding: 15px 40px;
   text-decoration: none;
 }
 .map__button:hover {
-  background-color: white;
+  background-color: #fff;
   color: #8e98a1;
 }
 @media (max-width: 46.8em) {
@@ -2393,7 +2396,7 @@ Contents
   -ms-transition: all, 1s;
   -o-transition: all, 1s;
   transition: all, 1s;
-  color: white;
+  color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
   opacity: 0.9;
@@ -2407,7 +2410,7 @@ Contents
   }
 }
 .single-post #catapult-cookie-bar a, .page #catapult-cookie-bar a {
-  color: white;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
