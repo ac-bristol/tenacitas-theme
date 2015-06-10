@@ -224,7 +224,7 @@ if (is_mobile()) {
 									<div class="grid__col grid__col--three-col">
 										<div class="contact-box contact-box--line">
 											<i class="icon icon--mail contact-box__icon"></i>
-											<p class="contact-box__text"><a href="mailto:enquires@tenacitas-init.com">enquires@tenacitas-init.com</a></p>
+											<p class="contact-box__text"><a href="mailto:inquires@tenacitas-init.com">inquires@tenacitas-init.com</a></p>
 										</div>
 									</div>
 									<div class="grid__col grid__col--three-col">
@@ -233,7 +233,7 @@ if (is_mobile()) {
 											<p class="contact-box__text">
 											1395 Brickell Avenue<br />
 											Suite 800<br />
-											Miami FK 33131
+											Miami FL 33131
 											</p>
 										</div>
 									</div>
