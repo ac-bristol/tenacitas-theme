@@ -275,7 +275,7 @@ if (is_mobile()) {
 
 							<div class="news__container" id="js-news">
 
-								<div class="grid-sizer"></div>
+								<div class="grid-sizer"></div> 
 								<div class="gutter-sizer"></div>
 								<?php
 						    $args = array(
