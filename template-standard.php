@@ -277,7 +277,7 @@ if (is_mobile()) {
 
 								<div class="grid-sizer"></div>
 								<div class="gutter-sizer"></div>
-								<?php
+								<?php 
 						    $args = array(
 						        'post_type' => 'post'
 						    );
