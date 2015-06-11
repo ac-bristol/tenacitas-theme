@@ -224,7 +224,7 @@ if (is_mobile()) {
 									<div class="grid__col grid__col--three-col">
 										<div class="contact-box contact-box--line">
 											<i class="icon icon--mail contact-box__icon"></i>
-											<p class="contact-box__text"><a href="mailto:inquiries@tenacitas-init.com">inquiries@tenacitas-init.com</a></p>
+											<p class="contact-box__text"><a href="mailto:inquiries@tenacitas-intl.com">inquiries@tenacitas-intl.com</a></p>
 										</div>
 									</div>
 									<div class="grid__col grid__col--three-col">
