@@ -8,6 +8,7 @@
 					<?php wp_nav_menu( array('menu' => 'Footer' )); ?>
 
 					<!-- copyright -->
+					<div class="addthis_native_toolbox footer__social"></div>
 					<p class="footer__legal">
 						&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> International.<br />
 						<a href="/privacy">Privacy</a><br />
@@ -34,6 +35,8 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
+
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-558030531fa2e0bb" async="async"></script>
 
 	</body>
 </html>

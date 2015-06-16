@@ -29,7 +29,8 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 
 				<p><a href="<?php the_field('link_url'); ?>" class="news-article__link" target="_blank"><?php the_field('link_title'); ?></a></p>
 
-				<p><?php the_excerpt(); // Dynamic Content ?></p>
+				<p><?php the_date(); ?></p>
+				<!-- <p><?php the_excerpt(); // Dynamic Content ?></p> -->
 
 				<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
 
@@ -48,6 +49,7 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 			<?php the_content(); // Dynamic Content ?>
 
 			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
+			
 		</div>
 	</section>
 

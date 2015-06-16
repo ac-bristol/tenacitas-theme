@@ -56,6 +56,14 @@
 			text-align: right;
 		}
 	}
+
+	&__social {
+		@media (min-width: $med) {
+			position: absolute;
+		  top: 120px;
+		  right: 20px;
+		}
+	}
 }
 
 #menu-footer {
@@ -89,4 +97,10 @@
 	@media (min-width: $med) {
 		margin-bottom: 0;
 	}
+}
+
+#js-social {
+	position: absolute;
+	right: 0;
+	top: 60px;
 }
