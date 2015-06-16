@@ -16,6 +16,10 @@
 			}
 		}
 
+		.services & {
+			background-position: bottom;
+		}
+
 		@media (max-width: $med) {
 			background-position: center center;
 			background-size: auto 100%; 
