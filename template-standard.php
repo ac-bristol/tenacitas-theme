@@ -96,8 +96,34 @@ if (is_mobile()) {
 		</section>
 
 				<?php if(is_page('about')) { ?>
+
+					<section class="section section--pink" id="read-more">
+
+						<div class="content">
+
+							<h2 class="heading heading--line-white">What we do</h2>
+
+							<div class="grid">
+
+								<div class="grid__row">
+
+									<div class="grid__col grid__col--two-col grid__col--first">
+										<p>Our clients may need us to provide due diligence on prospective acquisitions or business partners, tackle reputation management issues, conduct internal investigations, trace assets, gather information in business disputes, or diagnose security issues. Trusted with highly sensitive assignments, we respond with accurate information and analysis, working often in countries where the rule of law is arbitrary and weak.</p>
+									</div>
+
+									<div class="grid__col grid__col--two-col">
+										<p>Today's businesses are exploring inroads in frontier markets across all sectors, from timber to sugar cane, construction to mining, beverages, and finance to pharmaceuticals. Clients in these and many other industries turn to us for practical, actionable advice on barriers, challenges and opportunities.</p>
+									</div>
+
+								</div>
+
+							</div><!-- /.grid -->
+
+						</div>
+
+					</section>
 					
-					<section class="section section--light-blue" id="read-more">
+					<section class="section section--light-blue">
 
 						<div class="content">
 
@@ -123,7 +149,35 @@ if (is_mobile()) {
 
 				<?php if(is_page('services')) { ?>
 
-					<section class="section services" id="read-more">								
+					<section class="section section--red" id="read-more">
+
+						<div class="content">
+
+							<h2 class="heading heading--line-white">How can we help?</h2>
+
+							<div class="grid">
+
+								<div class="grid__row">
+
+									<div class="grid__col grid__col--two-col grid__col--first">
+										<p>We can advise on the risks posed by a potential acquisition or new business partner. Or we can address suspicions that a competitor is using unlawful means to obtain a commercial advantage. Or we can address possible data theft, extortion activity, fraud and regulatory infringements.</p>
+										<p>Data theft is a disturbingly regular occurrence. When clients face the loss of secure information, we find out who was involved and how the breach may have occurred. We also delve deep to construct a more robust IT network infrastructure and design procedures to mitigate the risk of future breaches.</p>
+									</div>
+
+									<div class="grid__col grid__col--two-col">
+										<p>Challenges to reputation require swift action. These assaults can lead to visas being revoked, business dealings cancelled or other negative consequences. Clients seek our support in developing and executing an investigative and communications strategy to identify the facts and achieve redress.</p>
+										<p>Whether we are conducting a forensic accounting review in the context of a potential regulatory infringement, diagnosing the vulnerabilities of an industrial plant, or delivering high-grade polling research to sovereign governments as part of their implementation of public security reforms, our clients' security and institutional integrity are at the heart of our mission.</p>
+									</div>
+
+								</div>
+
+							</div><!-- /.grid -->
+
+						</div>
+
+					</section>
+
+					<section class="section services">								
 
 									<?php
 							    $args = array(
@@ -218,7 +272,7 @@ if (is_mobile()) {
 									<div class="grid__col grid__col--three-col">
 										<div class="contact-box contact-box--line">
 											<i class="icon icon--phone contact-box__icon"></i>
-											<p class="contact-box__text">Tel: +1305 672 7920</p>
+											<p class="contact-box__text">Tel: +1 305 672 7920</p>
 										</div>
 									</div>
 									<div class="grid__col grid__col--three-col">
@@ -232,7 +286,7 @@ if (is_mobile()) {
 											<i class="icon icon--location contact-box__icon"></i>
 											<p class="contact-box__text">
 											1395 Brickell Avenue<br />
-											Suite 800<br />
+											Suite 900<br />
 											Miami FL 33131
 											</p>
 										</div>

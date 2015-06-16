@@ -1,4 +1,4 @@
-/*! JFD - 2015-06-10 *//*!
+/*! JFD - 2015-06-16 *//*!
  * Isotope PACKAGED v2.2.0
  *
  * Licensed GPLv3 for open source use
