@@ -8,7 +8,6 @@
 					<?php wp_nav_menu( array('menu' => 'Footer' )); ?>
 
 					<!-- copyright -->
-					<div class="addthis_native_toolbox footer__social"></div>
 					<p class="footer__legal">
 						&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> International.<br />
 						<a href="/privacy">Privacy</a><br />

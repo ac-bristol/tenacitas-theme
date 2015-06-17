@@ -47,7 +47,7 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 	<section class="section section--light-grey news-article news-article--dark">
 		<div class="content content--padding-top content--padding-bottom">
 			<?php the_content(); // Dynamic Content ?>
-
+			<div class="addthis_native_toolbox"></div>
 			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
 			
 		</div>
