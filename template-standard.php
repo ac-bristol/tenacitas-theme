@@ -327,24 +327,31 @@ if (is_mobile()) {
 							</ul>
 							
 
-							<div class="news__container" id="js-news">
+							<div class="news__container" id="js-news-archive">
 
 								<div class="grid-sizer"></div> 
 								<div class="gutter-sizer"></div>
+
+
+							
+
+
 								<?php
-						    $args = array(
-						        'post_type' => 'post'
-						    );
+
+								    $args = array(
+								        'post_type' => 'post'
+								    );
 
 						    $counter = 0;
 
 						    $post_query = new WP_Query($args);
 
-								if($post_query->have_posts() ) {
-						  		while($post_query->have_posts() ) {
+								if($post_query->have_posts() ) { ?>
+								<div id="js-post-old" class="<?php echo date('F-Y'); ?>"></div>
+						  		<?php while($post_query->have_posts() ) {
 						    		$post_query->the_post(); $counter++;?>
 						    		<div class="news__item <?php $category = get_the_category(); 
-				echo $category[0]->cat_name; ?>">
+				echo $category[0]->cat_name; ?> <?php the_time('F-Y'); ?>">
 						    			<a href="<?php echo get_permalink(); ?>">
 							    			<div class="news__img">
 							    				<?php

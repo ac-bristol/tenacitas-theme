@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
 
   var jsFileList = [
+    'js/libs/jquery-1.11.3.min.js',
     'js/libs/*.js',
     'js/scripts.js'
   ];
