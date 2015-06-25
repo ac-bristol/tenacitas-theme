@@ -317,7 +317,7 @@ tenacitas.newsPage = (function () {
       });  
 
       $('.filter').on('click', function(e){
-        console.log('click')
+        // console.log('click')
         setTimeout(function(){ 
           currentHash();   
         }, 200); 
@@ -329,7 +329,7 @@ tenacitas.newsPage = (function () {
 
   function hideOld() {
     var currentDate = $('#js-post-old').attr('class');
-    console.log(currentDate);
+    // console.log(currentDate);
 
     $('.news__item').each(function(){
       if (!$(this).hasClass(currentDate)) {
@@ -354,7 +354,7 @@ tenacitas.newsPage = (function () {
         $('#js-news-archive').isotope({filter: '*'});
         break;
       case '#news':
-        console.log('news');
+        // console.log('news');
         $('#js-news-archive').isotope({filter: '.News'}); 
         $('.js-viewMore').parent().hide();
         $('.news__item').removeClass('visibile');

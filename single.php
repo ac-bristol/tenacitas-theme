@@ -42,9 +42,11 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 		</div>
 		<!-- /content -->
 	</section>
+
+	<a href="#read-more" class="anchor mobile-hide js-ease"><img src="<?php echo get_template_directory_uri(); ?>/img/down-arrow.png" /></a>
 	<!-- /section -->
 
-	<section class="section section--light-grey news-article news-article--dark">
+	<section class="section section--light-grey news-article news-article--dark" id="read-more">
 		<div class="content content--padding-top content--padding-bottom">
 			<?php the_content(); // Dynamic Content ?>
 			<div class="addthis_native_toolbox"></div>
