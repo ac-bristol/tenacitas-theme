@@ -375,11 +375,7 @@ if (is_mobile()) {
 													foreach ( $cats as $cat ): ?>
 								        				<?php echo $cat->name; ?>
 													<?php endforeach; ?>">
-													<?php $cats = get_the_category(); 
-													foreach ( $cats as $cat ): ?>
-								        				<?php echo $cat->name; ?>
-													<?php endforeach; ?>
-												</p>
+													<?php $cats = get_the_category(); foreach ( $cats as $cat ): echo $cat->name; ?> <?php endforeach; ?></p>
 							    			</div>
 							    		</a>
 						    		</div>

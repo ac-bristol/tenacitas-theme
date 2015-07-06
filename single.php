@@ -100,8 +100,10 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 					    				<?php the_title(); ?> 
 					    			</div>
 						    		<p class="news__text--category news-article__related--padding <?php $category = get_the_category(); 
-		echo $category[0]->category_nicename; ?>"><?php $category = get_the_category(); 
-		echo $category[0]->cat_name; ?></p>
+		echo $category[0]->category_nicename; ?>"><?php $cats = get_the_category(); 
+													foreach ( $cats as $cat ): ?>
+								        				<?php echo $cat->name; ?>
+													<?php endforeach; ?></p>
 									</a>
 								</li>
 				       <?php
