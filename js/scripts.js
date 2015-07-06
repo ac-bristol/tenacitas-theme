@@ -328,18 +328,24 @@ tenacitas.newsPage = (function () {
   }
 
   function hideOld() {
-    var currentDate = $('#js-post-old').attr('class');
-    // console.log(currentDate);
+    // var currentDate = $('#js-post-old').attr('class');
+    // // console.log(currentDate);
 
     $('.news__item').each(function(){
-      if (!$(this).hasClass(currentDate)) {
-        $(this).addClass('older');
+      var c = $(this).attr('class');
+      var splitClass = c.split(' ');
+      if ($(this).hasClass('Archive')) {
+        $(this).hide();
+        console.log($(this).find('.news__text--category').html($(this).html().split('Archive').join('')));
+        //$(this).html().split('Archive').join('')
       }
     });
 
     $('.js-archive').on('click', function(e){
-      $('.news__item').removeClass('older');
+      $('.Archive').show();
     }); 
+
+  
 
   }
 

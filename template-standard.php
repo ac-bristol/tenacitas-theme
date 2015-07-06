@@ -332,10 +332,6 @@ if (is_mobile()) {
 								<div class="grid-sizer"></div> 
 								<div class="gutter-sizer"></div>
 
-
-							
-
-
 								<?php
 
 								    $args = array(
@@ -347,11 +343,9 @@ if (is_mobile()) {
 						    $post_query = new WP_Query($args);
 
 								if($post_query->have_posts() ) { ?>
-								<div id="js-post-old" class="<?php echo date('F-Y'); ?>"></div>
 						  		<?php while($post_query->have_posts() ) {
 						    		$post_query->the_post(); $counter++;?>
-						    		<div class="news__item <?php $category = get_the_category(); 
-				echo $category[0]->cat_name; ?> <?php the_time('F-Y'); ?>">
+						    		<div class="news__item <?php $cats = get_the_category(); foreach ( $cats as $cat ): echo $cat->name; ?> <?php endforeach; ?>">
 						    			<a href="<?php echo get_permalink(); ?>">
 							    			<div class="news__img">
 							    				<?php
@@ -377,9 +371,15 @@ if (is_mobile()) {
 								    			<div class="news__text--content">
 								    				<?php the_title(); ?> 
 								    			</div>
-								    			<p class="news__text--category <?php $category = get_the_category(); 
-				echo $category[0]->category_nicename; ?>"><?php $category = get_the_category(); 
-				echo $category[0]->cat_name; ?></p>
+								    			<p class="news__text--category <?php $cats = get_the_category(); 
+													foreach ( $cats as $cat ): ?>
+								        				<?php echo $cat->name; ?>
+													<?php endforeach; ?>">
+													<?php $cats = get_the_category(); 
+													foreach ( $cats as $cat ): ?>
+								        				<?php echo $cat->name; ?>
+													<?php endforeach; ?>
+												</p>
 							    			</div>
 							    		</a>
 						    		</div>
